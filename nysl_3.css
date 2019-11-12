@@ -1,0 +1,209 @@
+* {
+    z-index: 1;
+    background-color: rgb(200, 199, 195);
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 960px;
+    background-color: transparent;
+    z-index: 1;
+}
+
+.header {}
+
+.banner-image-1 {
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+    object-position: 50% 0%;
+}
+
+.banner-image-2 {
+    display: none;
+}
+
+.banner-title-1 {
+    display: none;
+}
+
+.banner-title-2 {
+    display: none;
+}
+
+.banner-title-3 {
+    font-size: 2.8em;
+    position: relative;
+    top: 0px;
+    text-align: center;
+    margin-left: 0px;
+    color: rgba(2, 58, 25, 0.9);
+    border: 2px solid black;
+    border-bottom: none;
+}
+
+section.content-title-3 {
+    box-sizing: border-box;
+    width: 25%;
+    padding: 5px;
+    margin-top: -20px;
+    background-color: rgb(2, 58, 25);
+    border: 2px solid black;
+}
+
+section.content-title-1 {
+    display: none;
+}
+
+section.content-title-2 {
+    display: none;
+}
+
+div.content-title-3 {
+    position: relative;
+    margin-top: 50px;
+    width: 20%;
+}
+
+section.content-title-3 {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+    background-color: inherit;
+    border: 2px solid black;
+}
+
+h2.content-title-3 {
+    background-color: inherit;
+    font-size: 2em;
+    margin: 0px auto 0px auto;
+    color: rgb(10, 10, 10);
+    text-align: center;
+}
+
+.content-image-1 {
+    margin-top: 10px;
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.company-logo-1 {
+    display: none;
+}
+
+.company-logo-2 {
+    display: none;
+}
+
+.company-logo-3 {
+    position: absolute;
+    left: 50px;
+    top: 20px;
+    background-color: transparent;
+    z-index: 1000;
+}
+
+.company-logo-3 img {
+    background-color: transparent;
+    z-index: 1000;
+}
+
+.nav-bar-1 {
+    display: none;
+}
+
+.nav-bar-2 {
+    display: none;
+}
+
+.nav-item-1 {
+    display: block;
+    font-size: 1.5em;
+    line-height: 2.5em;
+    word-spacing: 10px;
+}
+
+
+/* Style the top navigation bar */
+
+.nav-bar-3 {
+    display: flex;
+    margin-top: -5px;
+    background-color: rgba(2, 58, 25, 0.9);
+    border: 2px solid black;
+    border-top: 2px solid black;
+    overflow: hidden;
+    align-items: center;
+}
+
+
+/* Style the navigation bar links */
+
+.nav-bar-3 a {
+    color: white;
+    padding: 10px 15px;
+    font-size: 1.3em;
+    line-height: 1.6em;
+    margin: 0 5px;
+    text-decoration: none;
+    text-align: center;
+    background-color: inherit;
+    overflow: hidden;
+}
+
+
+/* Change color on hover */
+
+.nav-bar-3 a:hover {
+    background-color: rgb(200, 199, 195);
+    color: rgba(2, 58, 25, 0.9);
+    border-top: 2px solid black;
+}
+
+section.contents {
+    position: relative;
+    left: 250px;
+    top: -380px;
+    max-width: 70%;
+    background-color: inherit;
+    z-index: 1;
+    font-size: large;
+}
+
+dl.contents {
+    position: relative;
+    font-size: x-large;
+    line-height: 1.8;
+    margin-left: 20px;
+}
+
+.about-contents {
+    font-size: medium;
+    text-align: justify;
+}
+
+section.contact-contents {
+    position: relative;
+    left: 250px;
+    top: -300px;
+    max-width: 70%;
+    background-color: inherit;
+    z-index: 1;
+    font-size: x-large;
+}
+
+.contact-contents {
+    font-size: x-large;
+    text-align: justify;
+}
+
+article.about-contents {
+    margin-top: -20px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
