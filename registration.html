@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="container">
+        <div class="banner-title">Northside Youth Soccer League</div>
+        <div class="banner-image">
+            <img class="banner-image" src="file:///Users/carlosbarata/Academia/GitHub/acd02-nysl-project/resources/design2_image1.jpg" alt="NYSL Banner">
+        </div>
+        <section class="company-logo">
+            <img src="file:///Users/carlosbarata/Academia/GitHub/acd02-nysl-project/resources/nysl_logo.png" alt="NYSL LOGO" width="120">
+        </section>
+    </header>
+    <nav class="navbar">
+        <div>
+            <a href="file:///Users/carlosbarata/Academia/GitHub/acd02-nysl-project/home.html">Home</a>
+            <a href="file:///Users/carlosbarata/Academia/GitHub/acd02-nysl-project/contacts.html">Contact</a>
+            <a style="text-decoration: underline;" href="file:///Users/carlosbarata/Academia/GitHub/acd02-nysl-project/registration.html">Register</a>
+        </div>
+        <div>
+            <a href="file:///Users/carlosbarata/Academia/GitHub/acd02-nysl-project/game_info.html">Games</a>
+            <a href="file:///Users/carlosbarata/Academia/GitHub/acd02-nysl-project/rules.html">Rules</a>
+            <a href="file:///Users/carlosbarata/Academia/GitHub/acd02-nysl-project/about.html">About</a>
+        </div>
+    </nav>
+    <div class="container contents">
+        <div class="content-title">
+            <section class="content-title">
+                <h2 class="content-title">Registration Form</h2>
+            </section>
+            <img class="content-image" src="file:///Users/carlosbarata/Academia/GitHub/acd02-nysl-project/resources/football_002.png" alt="NYSL Banner">
+        </div>
+        <section class="contents-body">
+            <form action="show_data.html" method="GET">
+                <div class="reg-line">
+                    <p>Player's</p>
+                    <!-- <button class="btn" type="submit">Submit</button> -->
+                </div>
+                <div class="reg-line">
+                    <div class="reg-line-left">
+                        <label for="firstName">First Name:</label>
+                        <input type="text" name="firstName" class="reg-name">
+                    </div>
+                    <div class="reg-line-right">
+                        <label for="lastName">Last Name:</label>
+                        <input type="text" name="lastName" class="reg-name">
+                    </div>
+                </div>
+                <hr>
+                <div class="reg-line">
+                    <label for="streetAddr">Street Address:</label>
+                    <input type="text" name="streetAddr" id="reg-address">
+                </div>
+                <div class="reg-line">
+                    <div class="reg-line-left">
+                        <label for="cityAddr">City:</label>
+                        <input type="text" name="cityAddr" id="reg-address-city">
+                    </div>
+                    <div class="reg-line-right">
+                        <label for="zipAddr">ZIP Code:</label>
+                        <input type="text" name="zipAddr" id="reg-address-zip">
+                    </div>
+                </div>
+                <hr>
+                <div class="reg-line">
+                    <div class="reg-line-left">
+                        <label for="birthDate">Birth Date:</label>
+                        <input type="date" name="birthDate" id="birth-date">
+                    </div>
+                    <div class="reg-line-left">
+                        <label for="gender">Gender:</label>
+                        <input type="radio" name="gender" value="female">Female
+                        <input type="radio" name="gender" value="male">Male
+                    </div>
+                </div>
+                <hr>
+                <div class="reg-line-grade">
+                    <label for="grade">Grade:</label>
+                    <input type="radio" name="grade" value="grade-0">Pre-School
+                    <input type="radio" name="grade" value="grade-1"><span>1<sup>st</sup></span>
+                    <input type="radio" name="grade" value="grade-2"><span>2<sup>nd</sup></span>
+                    <input type="radio" name="grade" value="grade-3"><span>3<sup>rd</sup></span>
+                    <input type="radio" name="grade" value="grade-4"><span>4<sup>th</sup></span>
+                    <input type="radio" name="grade" value="grade-5"><span>5<sup>th</sup></span>
+                </div>
+                <hr>
+                <div class="reg-line">
+                    <label for="guardian">Parent/Guardian:</label>
+                    <input type="text" name="guardian" id="reg-guardian">
+                </div>
+                <div class="reg-line">
+                    <div class="reg-line-left">
+                        <label for="ctPhone">Contact Phone:</label>
+                        <input type="number" name="ctPhone" class="reg-contact">
+                    </div>
+                    <div class="reg-line-right">
+                        <label for="ctEmail">Contact Email:</label>
+                        <input type="email" name="ctEmail" class="reg-contact">
+                    </div>
+                </div>
+                <hr>
+                <div class="reg-sub-title"><strong>Which elementary schools do you live near?</strong></div>
+                <div class="reg-line">
+                    <div class="reg-line-left">
+                        <h4>First Closest School:</h4>
+                        <select name="school-1" id="school-1">
+                            <option hidden value="" selected>Select School</option>
+                            <option value="AJ Katzenmaier">AJ Katzenmaier</option>
+                            <option value="Greenbay">Greenbay</option>
+                            <option value="Howard A Yeager">Howard A Yeager</option>
+                            <option value="Marjorie P Hart">Marjorie P Hart</option>
+                            <option value="North Elementary">North Elementary</option>
+                            <option value="South Elementary">South Elementary</option>
+                        </select>
+                    </div>
+                    <div class="reg-line-left" style=" margin-left: 10px;">
+                        <h4>Second Closest School:</h4>
+                        <select name="school-2" id="school-2">
+                            <option hidden value="" selected>Select School</option>
+                            <option value="AJ Katzenmaier">AJ Katzenmaier</option>
+                            <option value="Greenbay">Greenbay</option>
+                            <option value="Howard A Yeager">Howard A Yeager</option>
+                            <option value="Marjorie P Hart">Marjorie P Hart</option>
+                            <option value="North Elementary">North Elementary</option>
+                            <option value="South Elementary">South Elementary</option>
+                        </select>
+                    </div>
+                </div>
+                <hr>
+                <div class="reg-sub-title"><strong>What position(s) do you normally play?</strong>(check all that apply)</div>
+                <div class="reg-line">
+                    <div class="reg-line-left">
+                        <div class="reg-school-col">
+                            <div class="reg-school">
+                                <input type="checkbox" name="position-1" id="position-1" value="forward">Forward
+                            </div>
+                            <div class="reg-school">
+                                <input type="checkbox" name="position-1" id="position-2" value="midfield">Midfield
+                            </div>
+                        </div>
+                        <div class="reg-school-col">
+                            <div class="reg-school">
+                                <input type="checkbox" name="position-1" id="position-3" value="defense">Defense
+                            </div>
+                            <div class="reg-school">
+                                <input type="checkbox" name="position-1" id="position-4" value="goalkeeper">Goalkeeper
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="reg-sub-title"><strong>What position(s) do you want to play?</strong>(check all that apply)</div>
+                <div class="reg-line">
+                    <div class="reg-line-left">
+                        <div class="reg-school-col">
+                            <div class="reg-school">
+                                <input type="checkbox" name="position-2" id="position-4" value="forward">Forward
+                            </div>
+                            <div class="reg-school">
+                                <input type="checkbox" name="position-2" id="position-5" value="midfield">Midfield
+                            </div>
+                        </div>
+                        <div class="reg-school-col">
+                            <div class="reg-school">
+                                <input type="checkbox" name="position-2" id="position-6" value="defense">Defense
+                            </div>
+                            <div class="reg-school">
+                                <input type="checkbox" name="position-2" id="position-7" value="goalkeeper">Goalkeeper
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <input type="checkbox" name="reg-uniform" id="reg-uniform" value="gotUniform">
+                <label class="reg-sub-title" for="reg-uniform"><strong>Already Have a Uniform</strong></label>
+                <div class="reg-line reg-sel-uniform">
+                    <div class="reg-line-left">
+                        <h4>Jersey Size:</h4>
+                        <select name="jersey-size" id="jersey-size">
+                            <option hidden value="" selected>Select Size</option>
+                            <option value="Youth Small">Youth Small</option>
+                            <option value="Youth Medium">Youth Medium</option>
+                            <option value="Youth Large">Youth Large</option>
+                            <option value="Small">Small</option>
+                            <option value="Medium">Medium</option>
+                            <option value="Large">Large</option>
+                            <option value="X-Large">Extra-Large</option>
+                        </select>
+                    </div>
+                    <div class="reg-line-left" style=" margin-left: 40px;">
+                        <h4>Shorts Size:</h4>
+                        <select name="shorts-size" id="shorts-size">
+                            <option hidden value="" selected>Select Size</option>
+                            <option value="Youth Small">Youth Small</option>
+                            <option value="Youth Medium">Youth Medium</option>
+                            <option value="Youth Large">Youth Large</option>
+                            <option value="Small">Small</option>
+                            <option value="Medium">Medium</option>
+                            <option value="Large">Large</option>
+                            <option value="X-Large">Extra-Large</option>
+                        </select>
+                    </div>
+                </div>
+                <hr>
+                <div class="reg-line">
+                    <button class="btn" type="submit">Submit</button>
+                </div>
+                <hr>
+            </form>
+        </section>
+    </div>
+</body>
+
+</html>
